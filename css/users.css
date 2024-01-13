@@ -1,0 +1,37 @@
+/* users.css */
+
+/* Table Styles */
+#usersTable {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+}
+
+#usersTable th,
+#usersTable td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#usersTable th {
+  
+  font-weight: bold;
+  color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  #usersTable {
+    font-size: 14px;
+  }
+  
+  #usersTable th,
+  #usersTable td {
+    padding: 5px;
+  }
+}
+
+footer {
+	font-family: Arial, sans-serif;
+}

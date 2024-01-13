@@ -1,0 +1,29 @@
+.h1, h1{
+	font size: 1.5rem;
+}
+	
+section .leftBox,
+section .rightBox {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+section .leftBox {
+  background: rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+  float: left;
+}
+
+section .leftBox:hover {
+  background: #DC143C;
+}
+
+section .leftBox h1 {
+  font-size: 30px;
+}
+
+section .leftBox .content {
+  color: #fff;
+  padding: 10px;
+}
